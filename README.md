@@ -6,8 +6,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Resource/Comp%20Logo.JPG">
-    <img src="Resource/Comp%20Logo.JPG" alt="Logo" width="700" height="180">
+<!--   <a href="https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Resource/Comp%20Logo.JPG">
+    <img src="Resource/Comp%20Logo.JPG" alt="Logo" width="700" height="180"> -->
   </a>
 
   <h3 align="center">SAS Hackathon Repository</h3>
@@ -27,7 +27,7 @@ We will be concentrating on achieving three main goals:
 
 This project will also investigate new techniques for developing recommendation plans for areas impacted by drought in Oklahoma. These plans will aim to provide actionable and practical strategies for residents, businesses, and government agencies to mitigate the effects of drought on their communities. We plan to generate recommendations tailored to the specific needs and characteristics of the affected areas. This aspect of the project aims to provide practical solutions that can help communities better prepare for and respond to drought events, ultimately reducing the negative impacts of drought in Oklahoma. 
 
-#### Dataset and Code files: [Click this Link](https://github.com/osu-msba/ban5763-spring2023-group7/tree/main/Submission)
+#### Dataset and Code files: [Click this Link](https://github.com/mihir1493/Oklahoma-Drought-Prediction/tree/main/Submission)
 * Drought_Viz: EDA on the following datasets (Mesonet, GeoMap, Grnd_Water_info) 
 * Drought_prediction_ARIMA_Holt: ARIMA, LSTM and Holt Exponential Smoothing Models   
 * Drought_Prediction_LSTM_Final: Deep Learning  
@@ -44,26 +44,26 @@ Limiting the scope of project to below 9 counties based on the main cities in ea
 ![image](https://user-images.githubusercontent.com/89164485/229381168-c0cd74f1-b0f6-4d04-a5c7-f87e17a9809c.png)
 
 ## EDA
-#### Python Notebook: [Link](https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Notebooks/droughtVizualizations.ipynb)
+#### Python Notebook: [Link](https://github.com/mihir1493/Oklahoma-Drought-Prediction/blob/main/Submission/drought_Viz.ipynb)
 
 ### ARIMA, LSTM and Holt's Winter Method (Triple Exponential Smoothing) Model
-![image](https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Notebooks/prediction%209%20April.PNG)
+![image](https://github.com/mihir1493/Oklahoma-Drought-Prediction/blob/main/Notebooks/prediction%209%20April.PNG)
 
-#### Python Notebook: [Link](https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Submission/Drought_prediction_ARIMA_Holt.ipynb)
+#### Python Notebook: [Link](https://github.com/mihir1493/Oklahoma-Drought-Prediction/blob/main/Submission/Drought_prediction_ARIMA_Holt.ipynb)
 
 ### SARIMAX Model
-![image](https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Submission/SARIMAX.png)
+![image](https://github.com/mihir1493/Oklahoma-Drought-Prediction/blob/main/Submission/SARIMAX.png)
 
-#### Python Notebook: [Link](https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Submission/Forecasting%20SARIMA%20-%20SPI%20for%20GRND%20STN%20OKCE.ipynb)
+#### Python Notebook: [Link](https://github.com/mihir1493/Oklahoma-Drought-Prediction/blob/main/Submission/Forecasting%20SARIMA%20-%20SPI%20for%20GRND%20STN%20OKCE.ipynb)
 
 ### LSTM Time Series Model 
-![image](https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Notebooks/download%20(1).png)
-![image](https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Notebooks/download.png)
-![image](https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Notebooks/forecasting.png)
+![image](https://github.com/mihir1493/Oklahoma-Drought-Prediction/blob/main/Notebooks/download%20(1).png)
+![image](https://github.com/mihir1493/Oklahoma-Drought-Prediction/blob/main/Notebooks/download.png)
+![image](https://github.com/mihir1493/Oklahoma-Drought-Prediction/blob/main/Notebooks/forecasting.png)
 
-#### Python Notebook: [Link](https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Submission/drought_Prediction_LSTM_Final.ipynb)
+#### Python Notebook: [Link](https://github.com/mihir1493/Oklahoma-Drought-Prediction/blob/main/Submission/drought_Prediction_LSTM_Final.ipynb)
 
-#### Python Notebook(Attempt-2):[Link](https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Submission/LSTM%20Implementation.ipynb)
+#### Python Notebook(Attempt-2):[Link](https://github.com/mihir1493/Oklahoma-Drought-Prediction/blob/main/Submission/LSTM%20Implementation.ipynb)
 
 ### Multiclass Classification Model 
 #### Summary: Compiling Data from varied sources, Cleaning and performing multiclass classification to predict six levels of drought.
@@ -71,10 +71,10 @@ Limiting the scope of project to below 9 counties based on the main cities in ea
 **Output**: Multiclass Classification using Drought Monitor Dataset - SPI Classes 
 
 Decision Tree Model F1 Score: 0.735
-![Model Evaluation](https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Notebooks/Result1.PNG)
-![Result](https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Notebooks/Result2.PNG)
+![Model Evaluation](https://github.com/mihir1493/Oklahoma-Drought-Prediction/blob/main/Notebooks/Result1.PNG)
+![Result](https://github.com/mihir1493/Oklahoma-Drought-Prediction/blob/main/Notebooks/Result2.PNG)
 
-#### Python Notebook: [Link](https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Submission/Multiclass%20Classification%20-%20Drought.ipynb)
+#### Python Notebook: [Link](https://github.com/mihir1493/Oklahoma-Drought-Prediction/blob/main/Submission/Multiclass%20Classification%20-%20Drought.ipynb)
 
 ### Model Comparison:
 * ARIMA
@@ -91,11 +91,11 @@ Decision Tree Model F1 Score: 0.735
 
 ## SPI Calculation - All Ground Stations 
 
-![Dashboard](https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Submission/Dashboard.JPG)
+![Dashboard](https://github.com/mihir1493/Oklahoma-Drought-Prediction/blob/main/Submission/Dashboard.JPG)
 ### Tableau Dashboard SPI-3 Link (SPI-3 Forecast for 2020-2022): [Click this Link](https://tinyurl.com/datareboot)
 
-#### Python Notebook - OKCE: [Link](https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Submission/SPI-3%20Calculation.ipynb)
-#### Python Notebook - All Stations: [Link](https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Submission/SPI-3%20Calculation%20-%20All%20Stations.ipynb)
+#### Python Notebook - OKCE: [Link](https://github.com/mihir1493/Oklahoma-Drought-Prediction/blob/main/Submission/SPI-3%20Calculation.ipynb)
+#### Python Notebook - All Stations: [Link](https://github.com/mihir1493/Oklahoma-Drought-Prediction/blob/main/Submission/SPI-3%20Calculation%20-%20All%20Stations.ipynb)
 
 **KPI:** Using Standardized Precipitation Index (SPI) Forecasting for multiple horizons   
 > The Standardized Precipitation Index (SPI) is a measure of the deviation of precipitation from the long-term average, calculated for a specific time scale (e.g., 3 months, 6 months, 12 months, etc.)
