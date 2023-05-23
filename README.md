@@ -1,4 +1,4 @@
-# BAN5763-Spring2023-Group7
+# OKLAHOMA DROUGHT PREDICTION USING TIME SERIES FORECASTING
 
 <p align="center">
   <h1 align="center">Data Reboot</h1></p>
@@ -9,8 +9,8 @@
 <!--   <a href="https://github.com/osu-msba/ban5763-spring2023-group7/blob/main/Resource/Comp%20Logo.JPG">
     <img src="Resource/Comp%20Logo.JPG" alt="Logo" width="700" height="180"> -->
   </a>
-
-  <h3 align="center">SAS Hackathon Repository</h3>
+<!-- 
+  <h3 align="center">SAS Hackathon Repository</h3> -->
 
   <p align="center">
     Repository for Project Updates and File Storage 
