@@ -1,0 +1,23 @@
+SAS Hackathon also allows for humanitarian issues; below is a list of 2023 humanitarian-related global risks
+
+DATA WEBSITE for humanitarian issues: https://data.humdata.org/
+
+https://www.weforum.org/reports/global-risks-report-2023/in-full/1-global-risks-2023-today-s-crisis/#:~:text=Most%20respondents%20to%20the%202022,global%20scale%20(Figure%201.1).
+
+  1. Cost of Living 
+  2. Energy Supply Crisis
+  3. Inflation
+  4. Food Supply
+  5. Cyberattacks on critical infrastructure
+  
+Potential Ideas: 
+  - Due to inflation & covid, food and housing prices are increasing.
+    Russia is pulling our of export deals.
+    Price Index highest since 1990 
+    Find a dataset that shows prices in necessities from 2020 to 2022 
+    Dataset on renters and homeowners
+    Food, energy, and housing in low-income areas - then analyze the spending, health, and wellbeing, see how it's changed due to these current issues. 
+    
+    
+Website for humanitarian datasets: https://data.humdata.org/dataset?groups=usa&q=&sort=if(gt(last_modified%2Creview_date)%2Clast_modified%2Creview_date)%20desc&ext_page_size=25
+    

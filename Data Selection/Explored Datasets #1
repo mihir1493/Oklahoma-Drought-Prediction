@@ -1,0 +1,46 @@
+Hadley Nixon's Explored Datasets:
+  Data From: U.S. Bureau of Labor Statistics
+  Link to the website of the data: https://data.bls.gov/apps/industry-productivity-viewer/home.htm
+  File Downloads as an XML with three sheets. 
+
+The data shows the annual hours worked and employment which shows the industry productivity.
+Data from: 1987 to 2021
+The Industries in Data: (these industries also have more sub-industries in each)
+
+  Agriculture, Forestry, Fishing & Hunting
+  Mining, Oil & Gas Extraction
+  Utilities
+  Construction
+  Manufacturing
+  Wholesale Trade
+  Retail Trade
+  Transportation & Warehouse
+  Information
+  Fiance & Insurance
+  Real Estate/Rental & Leasing
+  Professional and Technical Service
+  Management of Companies and Enterprises
+  Administrative & Waste Service
+  Educational Service
+  Health Care & Social Assistance
+  Art, Entertainment, and Rec
+  Food Service
+  Other 
+  Government
+  
+Within the Dataset, you can see:
+  Labor Productivity
+  Total Factor Productivity
+  Output per worker 
+  Hours Worked
+  Labor Compensation
+  Labor Share
+  Unit Labor Cost
+  Hourly Compensation
+  Employment
+    
+Measuring Industry Productivity shows the overall economic performance of the U.S.
+We can determine and evaluate which industries are driving our overall economic performance.
+We can understanding the patterns of the top industries and forecasting the annual hours for upcoming years.
+This can help us see the potential economic performance for the next few years as we are still overcoming setbacks from covid. 
+Since there is a potential recession, it could be cool to some how incorporate that in the project. 

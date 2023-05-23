@@ -1,0 +1,180 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[42]:
+
+
+##By analyzing these variables,
+#we can gain insights into how different soil properties and
+#conditions affect the impact of drought on the soil and vegetation.
+#This information can be used to develop strategies to mitigate the effects of drought
+#and to manage water resources more effectively.
+
+
+# In[43]:
+
+
+get_ipython().system('pip install pandas numpy matplotlib seaborn scipy statsmodels scikit-learn')
+
+
+# In[44]:
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy.stats import ttest_ind, f_oneway
+from sklearn.cluster import KMeans
+from sklearn.linear_model import LinearRegression
+
+
+# In[50]:
+
+
+# Define a function to load the data
+def load_data(year):
+    if year == 2013:
+        return pd.read_excel("Meso-Soil.xlsx", sheet_name="Meso 2013")
+    elif year == 2014:
+        return pd.read_excel("Meso-Soil.xlsx", sheet_name="Meso 2014")
+    elif year == 2015:
+        return pd.read_excel("Meso-Soil.xlsx", sheet_name="Meso 2015")
+    elif year == 2016:
+        return pd.read_excel("Meso-Soil 2016.xlsx")
+    elif year == 2021:
+        return pd.read_excel("Meso-Soil 2021.xlsx")
+    else:
+        print("Invalid year.")
+        return None
+
+
+# In[51]:
+
+
+# Load the data for each year
+df_2013 = load_data(2013)
+df_2014 = load_data(2014)
+df_2015 = load_data(2015)
+df_2016 = load_data(2016)
+df_2021 = load_data(2021)
+
+
+# In[47]:
+
+
+##Th33 cm3/cm3: These variables represent the volumetric water
+#content of the soil at field capacity and at wilting point, respectively.
+#They are important in understanding the amount of water available to plants and
+#how much water is needed to maintain plant growth.
+
+
+# In[48]:
+
+
+# Calculate summary statistics for each variable in each dataset
+summary_stats = df_2013['Th33 cm3/cm3'].describe()
+
+print(summary_stats)
+
+
+# In[52]:
+
+
+# Calculate summary statistics for each variable in each dataset
+summary_stats = df_2014['Th33 cm3/cm3'].describe()
+
+print(summary_stats)
+
+
+# In[ ]:
+
+
+# Calculate summary statistics for each variable in each dataset
+summary_stats = df_2015['Th33 cm3/cm3'].describe()
+
+print(summary_stats)
+
+
+# In[ ]:
+
+
+# Calculate summary statistics for each variable in each dataset
+summary_stats = df_2016['Th33 cm3/cm3'].describe()
+
+print(summary_stats)
+
+
+# In[ ]:
+
+
+# Calculate summary statistics for each variable in each dataset
+summary_stats = df_2021['Th33 cm3/cm3'].describe()
+
+print(summary_stats)
+
+
+# In[ ]:
+
+
+##Theta_r cm3/cm3 and Theta_s cm3/cm3: These variables represent the residual water
+#content and saturated water content of the soil, respectively.
+#They are important in understanding the water holding capacity of the soil.
+
+
+# In[ ]:
+
+
+# Calculate summary statistics for each variable in each dataset
+summary_stats = df_2013['Theta_r cm3/cm3'].describe()
+
+print(summary_stats)
+
+# Calculate summary statistics for each variable in each dataset
+summary_stats = df_2014['Theta_r cm3/cm3'].describe()
+
+print(summary_stats)
+
+# Calculate summary statistics for each variable in each dataset
+summary_stats = df_2015['Theta_r cm3/cm3'].describe()
+
+print(summary_stats)
+
+# Calculate summary statistics for each variable in each dataset
+summary_stats = df_2016['Theta_r cm3/cm3'].describe()
+
+print(summary_stats)
+
+# Calculate summary statistics for each variable in each dataset
+summary_stats = df_2021['Theta_r cm3/cm3'].describe()
+
+print(summary_stats)
+
+
+# In[ ]:
+
+
+# Calculate summary statistics for each variable in each dataset
+summary_stats = df_2013['Theta_s cm3/cm3'].describe()
+
+print(summary_stats)
+
+# Calculate summary statistics for each variable in each dataset
+summary_stats = df_2014['Theta_s cm3/cm3'].describe()
+
+print(summary_stats)
+
+# Calculate summary statistics for each variable in each dataset
+summary_stats = df_2015['Theta_s cm3/cm3'].describe()
+
+print(summary_stats)
+
+# Calculate summary statistics for each variable in each dataset
+summary_stats = df_2016['Theta_s cm3/cm3'].describe()
+
+print(summary_stats)
+
+# Calculate summary statistics for each variable in each dataset
+summary_stats = df_2021['Theta_s cm3/cm3'].describe()
+
+print(summary_stats)
+
